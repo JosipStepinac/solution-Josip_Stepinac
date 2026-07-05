@@ -1,32 +1,227 @@
-# React + TypeScript + Vite
+# 🛍️ Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center">
+  Modern e-commerce frontend built with React, TypeScript and Tailwind CSS.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite\&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS_v4-06B6D4?logo=tailwindcss\&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## React Compiler
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 📖 Overview
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+**Shop** is a modern e-commerce frontend application developed with React and TypeScript.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+The project demonstrates component-based architecture, reusable UI components, responsive design, API integration and state management while consuming data from the DummyJSON API.
+
+It was created as a portfolio project to practice modern frontend development.
+
+---
+
+## ✨ Features
+
+* 🔍 Product search
+* 📂 Category filtering
+* ↕️ Product sorting
+* ❤️ Favorites system
+* 💾 Favorites persistence with Local Storage
+* 🌙 Light / Dark mode
+* 📄 Product details page
+* 📑 Client-side pagination
+* ⚡ Skeleton loading
+* 📱 Responsive design
+* 🚫 Custom 404 page
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots after deployment.
+
+### Home Page
+
+```
+/screenshots/home.png
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Product Details
+
+```
+/screenshots/product.png
+```
+
+### Dark Mode
+
+```
+/screenshots/dark-mode.png
+```
+
+### Favorites
+
+```
+/screenshots/favorites.png
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                  |
+| --------------- | ------------------------ |
+| React           | UI Library               |
+| TypeScript      | Static typing            |
+| Vite            | Development & Build Tool |
+| Tailwind CSS v4 | Styling                  |
+| React Router    | Client-side routing      |
+| Framer Motion   | Animations               |
+| Lucide React    | Icons                    |
+| DummyJSON API   | Product data             |
+
+---
+
+## 📂 Folder Structure
+
+```text
+src/
+│
+├── API/
+├── components/
+├── layouts/
+├── pages/
+├── types/
+│
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/shop.git
+```
+
+Move into the project
+
+```bash
+cd shop
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🧠 Project Architecture
+
+The application follows a component-based architecture.
+
+```
+App
+│
+├── MainLayout
+│   ├── Navbar
+│   ├── Home
+│   │   ├── ProductCounter
+│   │   ├── CategoryFilter
+│   │   ├── SortSelect
+│   │   ├── ProductGrid
+│   │   │   └── ProductCard
+│   │   └── Pagination
+│   │
+│   ├── Product
+│   ├── Favorites
+│   └── NotFound
+│
+└── Footer
+```
+
+---
+
+## 🎯 Implemented Concepts
+
+* Functional Components
+* React Hooks
+* TypeScript Interfaces
+* Component Composition
+* Responsive Design
+* Conditional Rendering
+* URL Query Parameters
+* Local Storage
+* API Fetching
+* Pagination
+* Skeleton Loading
+* Dark Mode
+
+---
+
+## 📈 Future Improvements
+
+* Authentication
+* Shopping Cart
+* Checkout
+* User Accounts
+* Product Reviews
+* Product Gallery
+* Image Zoom
+* Price Range Filter
+* Backend Integration
+* Unit Testing
+* End-to-End Testing
+
+---
+
+## 📚 Learning Outcomes
+
+This project helped strengthen practical knowledge of:
+
+* React
+* TypeScript
+* Component architecture
+* Tailwind CSS
+* API integration
+* State management
+* Responsive UI development
+* Reusable components
+* Modern frontend best practices
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Josip Stepinac**
+
+Frontend Portfolio Project • 2026
