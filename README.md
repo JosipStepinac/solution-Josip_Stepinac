@@ -44,30 +44,31 @@ It was created as a portfolio project to practice modern frontend development.
 
 ## 📸 Screenshots
 
-> Add screenshots after deployment.
-
 ### Home Page
 
 ```
-/screenshots/home.png
+<img width="1891" height="906" alt="home" src="https://github.com/user-attachments/assets/3862508c-466f-4ff9-acb9-6c424510cd75" />
 ```
 
 ### Product Details
 
 ```
-/screenshots/product.png
+<img width="1898" height="908" alt="product" src="https://github.com/user-attachments/assets/4a4c9551-d8ad-420b-97a9-f1e988f52d24" />
+
 ```
 
 ### Dark Mode
 
 ```
-/screenshots/dark-mode.png
+<img width="1891" height="900" alt="dark-mode" src="https://github.com/user-attachments/assets/86c77d57-111a-4991-a4f6-8415149e01c4" />
+
 ```
 
 ### Favorites
 
 ```
-/screenshots/favorites.png
+<img width="1895" height="906" alt="favorites" src="https://github.com/user-attachments/assets/60f9ace9-ab2a-4bdf-84dc-2ee46ca7dcbc" />
+
 ```
 
 ---
