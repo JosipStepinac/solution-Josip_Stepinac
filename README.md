@@ -46,32 +46,23 @@ It was created as a portfolio project to practice modern frontend development.
 
 ### Home Page
 
-```
-<img width="1891" height="906" alt="home" src="https://github.com/user-attachments/assets/3862508c-466f-4ff9-acb9-6c424510cd75" />
-```
+<img width="1891" height="906" alt="home" src="https://github.com/user-attachments/assets/c9d85071-d7b9-4597-bc0f-bc0c7ccc5dc9" />
+
 
 ### Product Details
 
-```
-<img width="1898" height="908" alt="product" src="https://github.com/user-attachments/assets/4a4c9551-d8ad-420b-97a9-f1e988f52d24" />
+<img width="1898" height="908" alt="product" src="https://github.com/user-attachments/assets/fc8f447e-5a75-4609-be99-f3effb899c23" />
 
-```
 
 ### Dark Mode
 
-```
-<img width="1891" height="900" alt="dark-mode" src="https://github.com/user-attachments/assets/86c77d57-111a-4991-a4f6-8415149e01c4" />
+<img width="1891" height="900" alt="dark-mode" src="https://github.com/user-attachments/assets/e73a6520-5c1f-4033-b2c6-298b57af77c1" />
 
-```
 
 ### Favorites
 
-```
-<img width="1895" height="906" alt="favorites" src="https://github.com/user-attachments/assets/60f9ace9-ab2a-4bdf-84dc-2ee46ca7dcbc" />
+<img width="1895" height="906" alt="favorites" src="https://github.com/user-attachments/assets/056cb585-dbac-405d-9aa9-ec4928221979" />
 
-```
-
----
 
 ## 🛠️ Tech Stack
 
